@@ -1,0 +1,22 @@
+songs.db shows the top 100 songs for a listener in 2018, we can get a good sense of their “audio aura” by looking at the average energy, valence, and danceability of those tracks.
+
+Energy: If their songs are mostly high-energy, this person probably loves upbeat tracks that make them want to move. Think of songs that get you hyped for a workout or a night out! If the energy is low, they might be more into chill tunes that help them unwind.
+
+Valence: A high average valence means they’re drawn to feel-good songs that lift their spirits. They might have a playlist filled with happy, sing-along tracks! If the valence is low, it could mean they enjoy deeper, more introspective music that makes them think.
+
+Danceability: If the songs are super danceable, this listener likely loves to hit the dance floor and have a good time. On the flip side, if the danceability is low, they might prefer music that’s more suited for lounging around or just enjoying with friends.
+
+Critique of the Calculation Method
+Now, while averaging these numbers gives us a snapshot, it might not tell the full story about what this listener really likes:
+
+Missing Nuances: Averaging can be a bit simplistic. This listener might enjoy everything from pop hits to indie ballads, and those diverse tastes might get lost in the numbers.
+
+Situational Tastes: People listen to different types of music depending on their mood or the situation. They could blast dance tracks at a party but opt for soothing melodies while relaxing at home. Averages might not capture those shifts.
+
+Improved Methods
+To get a better picture of someone’s musical vibe, we could try:
+
+Weighted Averages: Giving more importance to the songs they play often can provide clearer insights into what they genuinely love.
+
+Lyric Analysis: Digging into the lyrics for emotional content could help us understand the feelings behind their favorite songs.
+

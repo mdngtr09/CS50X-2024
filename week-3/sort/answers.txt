@@ -1,0 +1,34 @@
+sort1 uses: Bubble Sort
+How do you know?: The program sort1 shows the shortest execution time on sorted data sets, such as the reversed files (0.077s for reversed50,000.txt and 0.075s for reversed10,000.txt), compared to the other algorithms.
+
+random50,000.txt -> 0,087s
+random10,000.txt -> 0,207s
+random5,000.txt -> 0,60s
+reversed50,000.txt -> 0,077s
+revesed5,000.txt -> 0,089s
+reversed10,000.txt ->0,075s
+
+sort2 uses: merge sort
+How do you know?: The program sort2 is the fastest among all tested algorithms, especially on both random and reversed data sets.
+
+random50,000.txt -> 0,040s
+random10,000.txt -> 0,062s
+random5,000.txt -> 0,038s
+reversed50,000.txt -> 0,028s
+reversed5,000.txt -> 0,030s
+reversed10,000.txt ->0,134s
+
+sort3 uses: Selection Sort
+How do you know?: The program sort3 takes significantly longer to process the data, especially on sorted sets, as shown by the execution times for random10,000.txt (0.129s) and random5,000.txt (0.055s).
+
+
+random50,000.txt -> 0,061s
+random10,000.txt -> 0,129s
+random5,000.txt -> 0,055s
+reversed5,000.txt ->0,051s
+reversed10,000.txt ->0,228s
+reversed50,000.txt -> 0,049s
+
+sort1 uses Bubble Sort, being most efficient on already sorted lists.
+sort2 uses Merge Sort, demonstrating the best efficiency on random and reversed lists.
+sort3 uses Selection Sort, showing the worst performance in all tested cases.

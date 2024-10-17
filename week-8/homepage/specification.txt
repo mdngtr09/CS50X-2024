@@ -1,0 +1,21 @@
+10 HTML tags used:
+1. <html>
+2. <head>
+3. <title>
+4. <body>
+5. <div>
+6. <span>
+7. <h1>
+8. <h2>
+9. <p>
+10. <img>
+
+5 CSS properties used:
+1. font-family
+2. margin
+3. padding
+4. background-color
+5. display
+
+JavaScript feature: A toggle function that shows/hides the navigation menu and an animation that fades in the image when the page loads.
+Bootstrap feature: Used Bootstrap classes for responsive image and layout.

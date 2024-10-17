@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #343a40;
+    padding: 10px;
+}
+
+.navbar .hamburger {
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+}
+
+.menu {
+    display: none; /* Oculta o menu inicialmente */
+    flex-direction: column;
+    position: absolute;
+    top: 60px; /* Altura do navbar */
+    left: 0;
+    background-color: #343a40;
+    width: 100%;
+}
+
+.menu a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-bottom: 1px solid #495057;
+}
+
+.menu a:hover {
+    background-color: #495057;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #343a40;
+    color: white;
+}
+main {
+    background-color: #cce5ff;
+}
+h1 {
+    color: #007bff;
+}

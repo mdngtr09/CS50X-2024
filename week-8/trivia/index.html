@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <title>Trivia!</title>
+</head>
+<body>
+    <div class="jumbotron">
+        <h1>Trivia Quiz!</h1>
+    </div>
+
+    <div class="container">
+        <div class="section">
+            <h2>Part 1: Multiple Choice</h2>
+            <hr>
+            <h3>What is the approximate ratio of people to sheep in New Zealand?</h3>
+            <p id="status" aria-live="polite"></p>
+
+            <div class="buttons">
+                <button class="choice-button" id="incorrect1">6 people per 1 sheep</button>
+                <button class="choice-button" id="incorrect2">3 people per 1 sheep</button>
+                <button class="choice-button" id="incorrect3">1 person per 1 sheep</button>
+                <button class="choice-button" id="incorrect4">1 person per 3 sheep</button>
+                <button class="choice-button" id="correct">1 person per 6 sheep</button>
+            </div>
+
+            <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                    let correct = document.querySelector('#correct');
+                    let incorrects = document.querySelectorAll('.choice-button[id^="incorrect"]');
+                    let status = document.querySelector('#status');
+
+                    correct.addEventListener('click', () => {
+                        correct.style.backgroundColor = 'green';
+                        status.textContent = "Correct!";
+                    });
+
+                    incorrects.forEach(button => {
+                        button.addEventListener('click', () => {
+                            button.style.backgroundColor = 'red';
+                            status.textContent = "Incorrect!";
+                        });
+                    });
+                });
+            </script>
+        </div>
+
+        <div class="section">
+            <h2>Part 2: Free Response</h2>
+            <hr>
+            <h3>In which country is it illegal to own only one guinea pig?</h3>
+            <p id="status2" aria-live="polite"></p>
+
+            <form id="free-response-form">
+                <input type="text" id="value" placeholder="Type your answer here">
+                <button type="submit">Check Answer</button>
+            </form>
+
+            <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                    document.querySelector('#free-response-form').addEventListener('submit', function(event) {
+                        event.preventDefault(); // Impede o recarregamento da página
+
+                        let status2 = document.querySelector('#status2');
+                        let value = document.querySelector('#value');
+                        let answer = value.value.trim().toLowerCase();
+
+                        if (answer === 'switzerland') {
+                            value.style.backgroundColor = 'green';
+                            status2.textContent = 'Correct!';
+                        } else {
+                            value.style.backgroundColor = 'red';
+                            status2.textContent = 'Incorrect!';
+                        }
+                    });
+                });
+            </script>
+        </div>
+    </div>
+</body>
+</html>
