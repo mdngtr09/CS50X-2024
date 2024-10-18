@@ -66,3 +66,7 @@ If you have any questions or suggestions, feel free to reach out via GitHub or L
 ---
 
 Stay tuned for updates, and I'll post my CS50X certificate once I finish!
+
+---
+
+![CS50x (1)_page-0001](https://github.com/user-attachments/assets/c593e108-f94a-420d-9e2f-32b62df11fa8)
