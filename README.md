@@ -1,52 +1,68 @@
-CS50X 2024
+I'm creating this repository to help others with CS50X 2024, and I'll be adding a certificate at the end once I complete the course.
 
-This repository contains my solutions and projects developed as part of Harvard’s CS50X 2024 course. The course covers the foundations of computer science, including algorithms, data structures, low-level programming with C, web development with Python and SQL, and more.
+---
 
-Projects and Assignments
+# CS50X 2024
 
-1. Scratch Project
+This repository contains my solutions and projects developed during Harvard’s CS50X 2024 course. The course covers the fundamentals of computer science, including algorithms, data structures, low-level programming with C, web development with Python and SQL, and more.
 
-	•	Description: A simple game created using the visual programming tool Scratch.
-	•	Skills: Basic programming concepts, game design.
+---
 
-2. Algorithms
+## Projects and Assignments
 
-	•	Bubble Sort, Selection Sort, Merge Sort
-	•	Description: Implementation of various sorting algorithms, with a focus on understanding time complexity and efficiency.
-	•	Skills: Algorithmic thinking, data structures.
+1. **Scratch Project**
+   - **Description**: A simple game created using the visual programming tool Scratch.
+   - **Skills**: Basic programming concepts, game design.
 
-3. SQL Database Management
+2. **Algorithms**
+   - **Bubble Sort, Selection Sort, Merge Sort**
+   - **Description**: Implementations of various sorting algorithms, focusing on time complexity and efficiency.
+   - **Skills**: Algorithmic thinking, data structures.
 
-	•	Description: Creation and management of databases, including complex queries and performance optimization.
-	•	Skills: Database design, querying, SQL.
+3. **SQL Database Management**
+   - **Description**: Creation and management of databases, including complex queries and performance optimization.
+   - **Skills**: Database design, querying, SQL.
 
-Technologies Used
+---
 
-	•	C for low-level programming
-	•	Python for higher-level concepts and web development
-	•	SQL for database management
-	•	Scratch for visual programming and simple games
+## Technologies Used
 
-How to Run the Code
+- C for low-level programming
+- Python for higher-level concepts and web development
+- SQL for database management
+- Scratch for visual programming and simple games
 
-	1.	Clone this repository:
+---
 
-git clone https://github.com/mdngtr09/CS50X-2024.git
+## How to Run the Code
 
+1. Clone this repository:
 
-	2.	Navigate to the specific project folder you want to explore.
-	3.	Follow the instructions provided in the respective project folder’s README to run the code.
+   ```bash
+   git clone https://github.com/mdngtr09/CS50X-2024.git
+   ```
 
-CS50 Course Info
+2. Navigate to the specific project folder you want to explore.
+3. Follow the instructions provided in the respective project folder’s README to run the code.
 
-CS50 is an introduction to the intellectual enterprises of computer science and the art of programming. More information about the course can be found at CS50’s official site.
+---
 
-License
+## CS50 Course Info
+
+CS50 is an introduction to the intellectual enterprises of computer science and the art of programming. More information about the course can be found on [CS50’s official website](https://cs50.harvard.edu).
+
+---
+
+## License
 
 This repository is licensed under the MIT License. See the LICENSE file for more details.
 
-Contact
+---
 
-If you have any questions or suggestions, feel free to contact me via GitHub or LinkedIn.
+## Contact
 
-This README provides a clear structure, highlights the key projects, and gives instructions on how to access the repository. Feel free to customize it as needed!
+If you have any questions or suggestions, feel free to reach out via GitHub or LinkedIn.
+
+---
+
+Stay tuned for updates, and I'll post my CS50X certificate once I finish!
